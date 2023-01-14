@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+
+<body>
+    <form action="backend.php">
+    <h2>Survey Form</h2>
+    <hr>
+    Let us know how we can improve freeCodeCamp
+    <hr>
+    <div>
+        <label for="name">*Name:</label>
+        <input type="text" name="Enter your name" id="name">
+    </div>
+    <br>
+    <div>
+        <label for="email">*Email:</label>
+        <input type="email" name="Enter your email" id="email">
+    </div>
+    <br>
+    <div>
+        <label for="age">*Age:</label>
+        <input type="number" name="myage" id="age">
+    </div>
+    <br>
+    <div>
+        <label for="role">Which option best describes your current role?</label>
+        <select name="myrole" id="role">
+            <option value="stu">student</option>
+            <option value="tea">teacher</option>
+            <option value="pvt">private job</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        How likely is that you would recommend <br>
+            freeCodeCamp to a friend?<br>
+        <input type="radio" name="fccc" > Definitely
+        <input type="radio" name="fccc" > May be
+        <input type="radio" name="fccc" > Not Sure
+    </div>
+    <br>
+    <div>
+        <label for="Like">What do you like most in FCC:</label>
+        <select name="Like" id="like">
+            <option value="Select an options" id="Like">C </option>
+            <option value="Select an options" id="Like">C++</option>
+            <option value="Select an options" id="Like">python</option>
+            <option value="Select an options" id="Like">Java</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="improve">Things that should be improved in the future <br>
+            (Check all that apply): </label> <br>
+        <input type="checkbox" name="front" id="improve"> Front-end Projects <br>
+        <input type="checkbox" name="back" id="improve"> Back-end Projects <br>
+        <input type="checkbox" name="Data" id="improve"> Data Visualization
+        </label>
+    </div>
+    <hr>
+    <div>
+        <input type="submit" name="submit now">
+        <input type="reset" name="reset" >
+    </div>
+</form>
+</body>
+</html>
